@@ -26,22 +26,21 @@ html{
 
 @media (max-width: 1200px) {
     #inicio{
-        padding-top: 750px;
+        padding-top: 850px;
     }
 
     #consultoria{
-        padding-top: 650px;
+        padding-top: 1200px;
     }
     #nosotros{
-        padding-top: 600px;
+        padding-top: 700px;
     }
     #contacto{
-        padding-top: 350px;
+        padding-top: 450px;
     }
     html{
-     height:600px;   
+        height: 900px;
     }
-
 }
 
 a{
