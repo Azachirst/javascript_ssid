@@ -1,0 +1,147 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    color: rgb(221, 219, 219);
+}
+
+html{
+    height: 100%;
+    background-image: url("img/pop-bg.jpg");
+    background-size: cover;
+     background-repeat:no-repeat ;
+     width: auto;
+}
+
+#row1{
+    height: 100%;
+    background-size: cover;
+     background-repeat:no-repeat ;
+     position: absolute;
+     width: auto;
+     align-items: center;
+     justify-content: center;
+
+}
+
+@media (max-width: 1200px) {
+    #inicio{
+        padding-top: 750px;
+    }
+
+    #consultoria{
+        padding-top: 650px;
+    }
+    #nosotros{
+        padding-top: 600px;
+    }
+    #contacto{
+        padding-top: 350px;
+    }
+
+}
+
+a{
+    font-size: 20px;
+}
+
+.botonetes{
+
+    border-width: 1px;
+    border-style: solid;
+    margin-block: 15px;
+    width: 40%;
+    float: left;
+    margin: 15px;
+    padding: 5%;
+}
+.botonetes:hover{
+    background-color: rgb(72, 70, 73);
+}
+
+
+.ventanas{
+    margin-top: 23%;
+    background-color: rgb(44, 44, 44);
+    height: auto;
+    position: absolute;
+    box-shadow:10px 10px 10px black;
+
+}
+
+
+#info{
+    font-size: 2rem;
+}
+
+#lineagruesa{
+    width: 15%;
+    border: 0;
+border-top: 12px solid rgb(221, 219, 219); 
+float: right;
+}
+
+#lineafina{
+    width: 85%;
+    border: 0;
+border-top: 2px solid rgb(221, 219, 219); 
+float: right;
+}
+
+.titulo{
+    font-size: 60px;
+}
+
+.titulos{
+    padding-bottom: 10px;
+    font-size: 40px;
+}
+
+img{
+    padding-bottom: 20px;
+}
+
+.fotoscarousel{
+    width: 200px;
+    height: 200px;
+}
+
+#atras, #siguiente{
+    background: none;
+    border: none;
+    position: absolute;
+    font-size: xx-large;
+}
+
+#atras{
+    margin-top: 5%;
+    left: 120px;
+}
+
+#siguiente{
+    margin-top: -12%;
+    right: 120px;
+}
+
+input, textarea{
+    background-color: rgb(58, 58, 58);
+    border: none;
+}
+
+#nombre, #email{
+    width: 49%;
+    height: 50px;
+}
+
+#mensaje{
+    width: 98%;
+    height: 250px;
+    padding-top: 0px;
+}
+
+
+
+#clumnix{
+    width: 400px;
+}
+
