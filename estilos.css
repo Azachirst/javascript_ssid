@@ -38,6 +38,9 @@ html{
     #contacto{
         padding-top: 350px;
     }
+    html{
+     height:600px;   
+    }
 
 }
 
